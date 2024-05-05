@@ -1,0 +1,81 @@
+.project-details {
+    background-color: #fff; // Set background color to white
+    border-radius: 8px; // Add border radius for rounded corners
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Add box shadow for depth
+  
+    padding: 20px; // Add padding for content spacing
+  
+    h2 {
+      margin-top: 0; // Remove default margin for heading
+    }
+  
+    p {
+      margin-bottom: 10px; // Add margin to separate paragraphs
+    }
+  
+    button {
+      background-color: #007bff; // Set button background color
+      color: #fff; // Set button text color
+      border: none; // Remove button border
+      border-radius: 4px; // Add button border radius
+      padding: 8px 16px; // Add padding to button text
+      cursor: pointer; // Change cursor to pointer on hover
+      transition: background-color 0.3s ease; // Add transition effect for hover
+  
+      &:hover {
+        background-color: #0056b3; // Change background color on hover
+      }
+    }
+    
+  }
+  .project-details {
+    background-color: #f3f6f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+    h2 {
+      margin-top: 0;
+      color: #2e3d49;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .education-item {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      margin-bottom: 20px;
+      
+      .education-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        h3 {
+          margin: 0;
+          color: #0073b1;
+          font-size: 1.1rem;
+          font-weight: bold;
+        }
+        
+        .education-date {
+          font-size: 14px;
+          color: #7c7b7b;
+        }
+      }
+      
+      .education-details {
+        margin-top: 10px;
+        
+        p {
+          margin: 0;
+          font-size: 16px;
+          color: #333;
+        }
+      }
+    }
+  }
+  
+  
